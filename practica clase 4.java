@@ -16,6 +16,6 @@ public class A {
 		System.out.println("india" + ZonedDateTime.now(ZoneId.of("Asis/Kolkata")).format(formateador));
 		System.out.println("UTC" + ZonedDateTime.now(ZoneId.of("UTC")).format(formateador));
 		
-		System.out.println();
+		System.out.println("------ Todas las Zonas Horarias"	);
 	}
 }
